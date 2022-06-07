@@ -2,8 +2,8 @@
 public class SliderTest {
 
 	public static void main(String[] args) {
-		new SliderFrame("Slider Frame");
-		
+		//new SliderFrame7("Slider7");
+		new MyFrame("MyFrame");
 	}
 
 }

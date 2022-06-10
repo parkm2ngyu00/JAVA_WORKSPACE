@@ -24,7 +24,7 @@ public class SliderFrame4 extends JFrame {
 				label.setText("Value: " + slider.getValue());
 			}
 			
-		}); 
+		});
 		panel.add(slider, BorderLayout.CENTER);
 		panel.add(label, BorderLayout.SOUTH);
 		

@@ -9,8 +9,8 @@ import javax.swing.event.ChangeListener;
 
 public class SliderFrame1 extends JFrame implements ChangeListener {
 	JPanel panel = new JPanel(new BorderLayout());
-	JSlider slider = new JSlider(JSlider.HORIZONTAL, 0, 100, 20);
-	JLabel label = new JLabel("Value: ", JLabel.CENTER);
+	JSlider slider = new JSlider(JSlider.HORIZONTAL, 0, 100, 0);
+	JLabel label = new JLabel("Value: 0", JLabel.CENTER);
 	
 	public SliderFrame1(String name) {
 		super(name);

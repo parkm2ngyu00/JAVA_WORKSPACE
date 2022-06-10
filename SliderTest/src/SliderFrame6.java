@@ -16,9 +16,9 @@ import javax.swing.event.ChangeListener;
 
 public class SliderFrame6 extends JFrame implements ChangeListener, ActionListener, KeyListener {
 	JPanel panel = new JPanel(new FlowLayout());
-	JSlider slider = new JSlider(JSlider.HORIZONTAL, 0, 100, 10);
+	JSlider slider = new JSlider(JSlider.HORIZONTAL, 0, 100, 0);
 	JLabel label = new JLabel("Value: ", JLabel.CENTER);
-	JTextField textfield = new JTextField("10", 15);
+	JTextField textfield = new JTextField("0", 15);
 	JButton button = new JButton("Close");
 
 	public SliderFrame6(String name) {

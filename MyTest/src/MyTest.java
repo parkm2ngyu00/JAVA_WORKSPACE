@@ -1,18 +1,21 @@
+import java.util.*;
 
 public class MyTest {
 	
-	static void swap(int[] a, int[] b) {
-		int temp;
-		temp = a[0];
-		a[0] = b[0];
-		b[0] = temp;
-	}
-	
 	public static void main(String[] args) {
-		int[] a = {20};
-		int[] b = {10};
-		swap(a, b);
-		System.out.printf("%d %d", a[0], b[0]);
+		Vector<String> v1 = new Vector<String>();
+		v1.addElement("ABC");
+		v1.addElement("DEF");
+		v1.addElement("GHI");
+		
+		for (int i = 0; i < v1.size(); i++) {
+			System.out.println("" + v1.elementAt(i));
+		}
+		
+		Enumeration<String> e = v1.elements();
+		while (e.hasMoreElements()) {
+			System.out.println("" + e.nextElement());
+		}
 	}
 
 }

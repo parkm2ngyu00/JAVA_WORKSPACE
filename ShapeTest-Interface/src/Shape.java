@@ -1,6 +1,5 @@
 
-public abstract class Shape implements IArea, Iperimeter, IMoveable, IScalable, Comparable<Shape> {
-	
+public abstract class Shape implements IArea, IPerimeter, IMoveable, IScalable {
 	protected ShapeType type;
 	protected ShapeColor color;
 	protected ShapeRect rect;
@@ -26,11 +25,5 @@ public abstract class Shape implements IArea, Iperimeter, IMoveable, IScalable, 
 	public void scale(int factor) {
 		rect.setWidth(rect.getWidth() * factor);
 		rect.setHeight(rect.getHeight() * factor);
-	}
-	
-	@Override
-	public int compareTo(Shape other) {
-		// ascending order
-		return this.rect.getWidth() * this.rect.getHeight() - other.rect.getWidth() * other.rect.getHeight();
 	}
 }

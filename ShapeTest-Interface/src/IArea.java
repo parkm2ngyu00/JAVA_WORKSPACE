@@ -1,4 +1,4 @@
 @FunctionalInterface
 public interface IArea {
-	void area();
+	void area(); // area
 }

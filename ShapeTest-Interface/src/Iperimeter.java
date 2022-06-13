@@ -1,4 +1,3 @@
-@FunctionalInterface
-public interface Iperimeter {
-	void perimeter();
+public interface IPerimeter {
+	void perimeter(); // perimeter
 }

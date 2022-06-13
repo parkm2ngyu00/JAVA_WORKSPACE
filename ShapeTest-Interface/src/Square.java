@@ -13,18 +13,6 @@ public class Square extends Rectangle {
 	}
 
 	@Override
-	public void area() {
-		System.out.println("Square Area = "
-				+ rect.getWidth() * rect.getHeight());
-	}
-	
-	@Override
-	public void perimeter() {
-		System.out.println(type + "Perimeter = "
-				+ 2 * (rect.getWidth() + rect.getHeight()));
-	}
-	
-	@Override
 	public String toString() {
 		return "Square [type=" + type + ", color=" + color + ", rect=" + rect + "]";
 	}
